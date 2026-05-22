@@ -1,7 +1,21 @@
-# -isw521-portafolio
-Repositorio GitHub con historial de commits que evidencie el proceso de aprendizaje, README documentado, uso de ramas y evolución visible entre unidades.
+# ISW-521 — Portafolio de Evidencias
 
+**Estudiante:** Jeremy Mendoza Ramirez
+**Carné:** 208200988
+**Institución:** UTN – Sede San Carlos
+**Período:** 2026 – II Cuatrimestre
 
-Nombre: Jeremy Mendoza Ramirez 
-Cedula:208200988
-.
+## Índice
+
+| Clase | Tema | Actividades |
+|-------|------|-------------|
+| 01 | Arquitectura Web, DNS, URLs | ✅ |
+| 02 | HTTP y el ciclo de la petición | ⏳ |
+
+## Tecnologías usadas
+
+HTML · CSS · JavaScript · (se irá actualizando)
+
+## Notas del curso
+
+Este repositorio documenta mi aprendizaje semana a semana.
