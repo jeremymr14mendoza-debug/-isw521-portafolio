@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semántico Workshop</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+        }
+
+        header{
+            background:#0a2c66;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            margin-top:10px;
+        }
+
+        nav a{
+            color:white;
+            margin:0 10px;
+            text-decoration:none;
+        }
+
+        .container{
+            display:flex;
+            min-height:400px;
+        }
+
+        aside{
+            width:20%;
+            padding:20px;
+            color:white;
+        }
+
+        .left{
+            background:#4d79c7;
+        }
+
+        .right{
+            background:#ef7f2d;
+        }
+
+        main{
+            width:60%;
+            background:#6da2d9;
+            padding:20px;
+            color:white;
+        }
+
+        article{
+            text-align:center;
+            margin-top:100px;
+        }
+
+        footer{
+            background:#14204d;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        form{
+            margin-top:15px;
+        }
+
+        input[type="search"]{
+            padding:5px;
+        }
+
+        button{
+            padding:5px 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Semántico - Workshop</h1>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Cursos</a>
+            <a href="#">Contacto</a>
+        </nav>
+
+        <!-- Formulario de búsqueda -->
+        <form>
+            <label for="buscar">Buscar:</label>
+            <input type="search" id="buscar" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+
+    <div class="container">
+
+        <aside class="left">
+            <h2>Filtros</h2>
+        </aside>
+
+        <main>
+            <article>
+                <h1>Título del artículo</h1>
+                <p>Contenido principal del artículo.</p>
+            </article>
+        </main>
+
+        <aside class="right">
+            <h2>Relacionado</h2>
+        </aside>
+
+    </div>
+
+    <footer>
+        © UTN 2026
+    </footer>
+
+</body>
+</html>
