@@ -1,0 +1,1 @@
+Escalar es permitir que mi aplicacion tenga la capacidad de crecer
