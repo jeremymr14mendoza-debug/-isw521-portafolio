@@ -1,0 +1,23 @@
+En esta clase se permitio el uso de Ia para hacer la actividad del index.html con el cv, use Claude Ia Para hacerlo y me informe de que dados cambiar para que al momento de poner http://localhost:8080 saliera mi cv 
+adjunto la conversacion:
+2. Cambiar el puerto de Apache a 8080
+
+Abre el XAMPP Control Panel.
+En la fila de Apache, haz clic en Config → httpd.conf.
+Busca la línea Listen 80 y cámbiala a Listen 8080.
+Busca ServerName localhost:80 y cámbiala a ServerName localhost:8080.
+Guarda el archivo y reinicia Apache desde el panel.
+
+3. Colocar el archivo index.html
+
+Copia el index.html descargado dentro del Document Root de XAMPP:
+
+Windows: C:\xampp\htdocs\
+Mac/Linux: /opt/lampp/htdocs/
+
+
+
+4. Verificar en el navegador
+
+Abre tu navegador y visita: http://localhost:8080
+Deberías ver tu CV desplegado.
