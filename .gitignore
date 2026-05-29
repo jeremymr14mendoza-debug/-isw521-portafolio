@@ -1,0 +1,53 @@
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Carpetas de compilación
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# Archivos generados por Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Base de datos IntelliSense
+*.VC.db
+*.VC.opendb
+
+# Caché y objetos compilados
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.tlog
+
+# Ejecutables y librerías
+*.exe
+*.dll
+*.lib
+
+# Archivos CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Archivos de pruebas
+TestResults/
+
+# NuGet
+packages/
+*.nupkg
+
+# Archivos de publicación
+publish/
+
+# Archivos de Rider/ReSharper
+_ReSharper*/
+*.DotSettings.user
