@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio — Jeremy Mendoza Ramírez</title>
+  <meta name="description" content="Portafolio de Jeremy Mendoza Ramírez, estudiante de Ingeniería en Sistemas. Proyectos de desarrollo web, bases de datos y software." />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="site-nav" aria-label="Navegación principal">
+    <div class="nav-inner">
+      <a href="#inicio" class="brand">Jeremy Mendoza</a>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page">
+    <main id="contenido">
+
+      <!-- ENCABEZADO / SOBRE MÍ -->
+      <section class="hero" id="inicio" aria-labelledby="hero-nombre">
+        <div class="avatar-wrap">
+          <div class="avatar" role="img" aria-label="Avatar con las iniciales J M">JM</div>
+        </div>
+        <div class="hero-content">
+          <h1 class="name" id="hero-nombre">
+            Jeremy
+            <span>Mendoza Ramírez</span>
+          </h1>
+          <p class="title-tag">Estudiante de Ingeniería en Sistemas Computacionales</p>
+          <p class="bio">
+            Estudiante en la Universidad Técnica Nacional (UTN), sede San Carlos.
+            Me interesa el desarrollo web, las bases de datos y la creación de
+            proyectos prácticos que resuelven problemas reales mientras sigo
+            aprendiendo cada día.
+          </p>
+          <ul class="contact-list">
+            <li><a href="mailto:jmendoza@email.com">jmendoza@email.com</a></li>
+            <li>Ciudad Quesada, San Carlos, CR</li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/jmendoza</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">github.com/jmendoza</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROYECTOS -->
+      <section id="proyectos" aria-labelledby="proyectos-label">
+        <p class="section-label" id="proyectos-label">Proyectos</p>
+
+        <div class="project-grid">
+
+          <article class="project-card">
+            <h3>Landing Page — Colegio San Martín</h3>
+            <p>
+              Página de aterrizaje totalmente responsiva construida con HTML, CSS y
+              JavaScript. Incluye diseño con Flexbox y CSS Grid, almacenamiento local
+              para formularios y atributos ARIA para accesibilidad.
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer"
+               aria-label="Ver proyecto Landing Page Colegio San Martín (enlace de ejemplo)">
+              Ver proyecto
+            </a>
+          </article>
+
+          <article class="project-card">
+            <h3>Sistema Veterinaria Los 3 Patitos</h3>
+            <p>
+              Aplicación en C++ Builder desarrollada en equipo. Implementa estructuras
+              de datos propias (listas enlazadas, pilas, colas y árbol binario de
+              búsqueda) sin usar contenedores STL.
+            </p>
+            <div class="project-tags">
+              <span class="tag">C++</span>
+              <span class="tag">Estructuras de Datos</span>
+            </div>
+            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer"
+               aria-label="Ver proyecto Sistema Veterinaria Los 3 Patitos (enlace de ejemplo)">
+              Ver proyecto
+            </a>
+          </article>
+
+          <article class="project-card">
+            <h3>Laboratorio de Bases de Datos — PostgreSQL</h3>
+            <p>
+              Conjunto de prácticas con un esquema hospitalario: consultas DDL, DML y
+              DQL, creación de índices y análisis de rendimiento con EXPLAIN en
+              PostgreSQL.
+            </p>
+            <div class="project-tags">
+              <span class="tag">SQL</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <a class="project-link" href="#" target="_blank" rel="noopener noreferrer"
+               aria-label="Ver proyecto Laboratorio de Bases de Datos PostgreSQL (enlace de ejemplo)">
+              Ver proyecto
+            </a>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section id="contacto" aria-labelledby="contacto-label">
+        <p class="section-label" id="contacto-label">Contacto</p>
+        <p class="bio" style="margin-left:0; text-align:left;">
+          ¿Tenés alguna oportunidad, proyecto o idea para conversar? Escribime a
+          <a href="mailto:jmendoza@email.com">jmendoza@email.com</a> o conectemos en
+          LinkedIn.
+        </p>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© 2026 Jeremy Mendoza Ramírez — Mi Portafolio</p>
+    </footer>
+  </div>
+
+</body>
+</html>
